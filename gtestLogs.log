@@ -1,0 +1,30 @@
+2024-01-19 11:49:28,512 [INFO] com.springboot.SpringbootBackend1Application [restartedMain] Starting SpringbootBackend1Application using Java 17.0.6 with PID 12996 (C:\Users\ARDHARAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\Springboot-backend1\target\classes started by ardharan in C:\Users\ARDHARAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\Springboot-backend1)
+2024-01-19 11:49:28,529 [INFO] com.springboot.SpringbootBackend1Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-01-19 11:49:28,612 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-19 11:49:28,613 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-19 11:49:29,625 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-19 11:49:29,742 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-01-19 11:49:30,653 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port 8080 (http)
+2024-01-19 11:49:30,667 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-01-19 11:49:30,667 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-19 11:49:30,729 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-01-19 11:49:30,730 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2116 ms
+2024-01-19 11:49:31,018 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-19 11:49:31,128 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-19 11:49:31,184 [INFO] org.hibernate.cache.internal.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-01-19 11:49:31,547 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-19 11:49:31,581 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-01-19 11:49:31,924 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4521f33f
+2024-01-19 11:49:31,932 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-01-19 11:49:31,979 [WARN] org.hibernate.orm.deprecation [restartedMain] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-19 11:49:33,106 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-19 11:49:33,180 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-19 11:49:33,503 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-19 11:49:33,877 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-01-19 11:49:33,923 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port 8080 (http) with context path ''
+2024-01-19 11:49:33,933 [INFO] com.springboot.SpringbootBackend1Application [restartedMain] Started SpringbootBackend1Application in 6.343 seconds (process running for 7.202)
+2024-01-19 11:52:05,499 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-19 11:52:05,500 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-01-19 11:52:05,501 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-01-19 11:54:45,440 [WARN] org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver [http-nio-8080-exec-2] Resolved [com.springboot.exception.ResourceNotFoundException: Employee not exist with id: 1]
+2024-01-19 14:11:01,449 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m57s543ms196µs500ns).
